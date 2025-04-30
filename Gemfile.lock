@@ -154,7 +154,7 @@ GEM
       minitest (>= 5.0)
       ruby-progressbar
     nenv (0.3.0)
-    net-imap (0.5.7)
+    net-imap (0.5.8)
       date
       net-protocol
     net-pop (0.1.2)
@@ -276,6 +276,7 @@ GEM
     uglifier (4.2.1)
       execjs (>= 0.3.0, < 3)
     useragent (0.16.11)
+    wdm (0.2.0)
     web-console (4.2.1)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -313,6 +314,7 @@ DEPENDENCIES
   turbolinks
   tzinfo-data
   uglifier
+  wdm (>= 0.1.0)
   web-console
 
 RUBY VERSION

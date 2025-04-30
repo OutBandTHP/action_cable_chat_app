@@ -16,6 +16,7 @@ gem 'jbuilder'
 group :development, :test do
   gem 'sqlite3', '2.6.0'                                       # instead of '1.3.13'
   gem 'byebug',  platform: :mri
+  gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 end
 
 group :development do
