@@ -10,7 +10,7 @@ class MessagesController < ApplicationController
     if message.save
       ActionCable.server.broadcast 'room_channel',
                                    {content: message.content,
-                                   username: message.user.username}
+                                    username: message.user.username}
     else
       render 'index'
     end
